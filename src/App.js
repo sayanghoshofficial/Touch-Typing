@@ -15,8 +15,8 @@ function App() {
     let setTime = 300;
     setInterval(() => {
       setTime -= 1;
-      if (setTime === 0) {
-        clearInterval();
+      if (setTime <= 0) {
+        clearInterval()
       }
       setTimer(setTime);
     }, 1000);
@@ -29,8 +29,8 @@ function App() {
           Test your typing skills
         </label>
         <Knob
-          valueColor={"Gray"}
-          rangeColor={"Green"}
+          valueColor={"SlateGray"}
+          rangeColor={"green"}
           textColor={"White"}
           strokeWidth="5"
           value={word ? timer : 299}
