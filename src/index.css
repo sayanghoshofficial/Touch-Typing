@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+ 
+}
+.cointainer{
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  background-image: url("./Assets/image/bg.jpg");
+}
+.heading{
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+
+}
+.word-count{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+.p-knob{
+  background-color: transparent;
+}
+.input-box{
+  width: 70%;
+  height: 50px;
+  outline: none;
+  border: 2px solid cyan;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: transparent;
+}
